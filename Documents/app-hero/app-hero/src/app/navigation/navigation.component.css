@@ -1,0 +1,36 @@
+.navigation-bar {
+    background-color: white;
+    color: black;
+    height: 80px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.nav-bar-list {
+    display: inline;
+    margin: 0 1.5em;
+    color: black;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(210, 202, 140, 0);
+    
+    -webkit-transition: border 500ms ease;
+    -moz-transition: border 500ms ease;
+    -ms-transition: border 500ms ease;
+    -o-transition: border 500ms ease;
+    transition: border 500ms ease;
+}
+
+.nav-bar-list:hover {
+    border-bottom: 2px solid rgba(210, 202, 140, 1);
+}
+
+.nav-bar-ul {
+position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
