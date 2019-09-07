@@ -1,5 +1,5 @@
 .background {
-    background-color: #D2CA8C;
+    background-color: white;
     height: 50vh;
 }
 
@@ -9,7 +9,7 @@
     flex-direction: column;
     height: 300px;
     padding: 0 100px;
-    color: white;
+    color: #D2CA8C;
 }
 
 .header {

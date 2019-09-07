@@ -34,3 +34,10 @@ position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.title {
+    text-decoration: none;
+    color: black;
+    scroll-behavior: smooth;
+}
+

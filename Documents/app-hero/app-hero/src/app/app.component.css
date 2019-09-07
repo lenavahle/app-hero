@@ -11,12 +11,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../assets/images/IMG_4480.JPG);
+  
   filter: opacity(75%)
 }
 
+.bg1 {
+        background-image: url(../assets/images/20180504_163920.jpg);
+}
+
+.bg2 {
+        background-image: url(../assets/images/IMG_4480.JPG);
+}
+
 .text {
-        height: 400px;
+        height: 500px;
 }
 
 * {

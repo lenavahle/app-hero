@@ -12,6 +12,8 @@ import { ChickensComponent } from './chickens/chickens.component';
 import { PigsComponent } from './pigs/pigs.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { StartComponent } from './start/start.component';
+import { FarmingComponent } from './farming/farming.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,15 @@ import { StartComponent } from './start/start.component';
     ContactComponent,
     ChickensComponent,
     PigsComponent,
-    StartComponent
+    StartComponent,
+    FarmingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatGridListModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

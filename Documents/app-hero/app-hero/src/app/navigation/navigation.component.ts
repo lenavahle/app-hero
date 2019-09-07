@@ -12,4 +12,9 @@ export class NavigationComponent implements OnInit {
   ngOnInit() {
   }
 
+  scroll(value: string) {
+    const element = document.querySelector('#' + value);
+    element.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+
 }
