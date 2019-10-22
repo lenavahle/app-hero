@@ -26,6 +26,17 @@ text-align: center
     text-align: center;
 }
 
+.title {
+    font-size: 36px;
+    margin-top: 10px;
+    color: var(--dark-grey);
+    text-transform: none;
+    font-family: var(--header-font);
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+
 .subheader {
     font-size: 20px;
    margin: 5px;

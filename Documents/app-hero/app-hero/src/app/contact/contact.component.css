@@ -10,6 +10,17 @@ body {
   background: var(--beige);
 }
 
+.title {
+    font-size: 36px;
+    margin-top: 10px;
+    color: var(--dark-grey);
+    text-transform: none;
+    font-family: var(--header-font);
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+
 button {
   overflow: visible;
 }
