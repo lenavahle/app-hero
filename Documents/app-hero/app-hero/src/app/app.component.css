@@ -4,7 +4,7 @@
     }
 
 .picture {
-        width: 1480px;
+        width: 100%;
         height: auto;
         overflow: hidden;
         background-attachment: fixed;
@@ -16,11 +16,12 @@
 }
 
 .bg1 {
-        background-image: url(../assets/images/20180504_163920.jpg);
+      
+        background-image: url(../assets/images/20180501_172145.jpg);
 }
 
 .bg2 {
-        background-image: url(../assets/images/IMG_4480.JPG);
+        background-image: url(../assets/images/20180504_163920.jpg);
 }
 
 .text {
@@ -28,4 +29,4 @@
 }
 
 * {
-        font-family: 'Raleway', sans-serif;}
+        font-family: 'Titillium Web', sans-serif;}

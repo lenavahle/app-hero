@@ -14,6 +14,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { StartComponent } from './start/start.component';
 import { FarmingComponent } from './farming/farming.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ChickensComponent,
     PigsComponent,
     StartComponent,
-    FarmingComponent
+    FarmingComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

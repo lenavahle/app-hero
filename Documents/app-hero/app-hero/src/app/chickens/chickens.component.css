@@ -1,13 +1,10 @@
 
 
-.images {
-    margin:auto;
-    display: inline-flex;
-} 
-
 .image {
     width: 100%;
-    height: auto;
+    max-height: 200px;
+    /* max-height: 5%; */
+   
     
 }
 .shadow {
@@ -20,8 +17,72 @@ text-align: center
 
 }
 
+.header {
+    font-size: 28px;
+    margin-top: 10px;
+    color: var(--dark-grey);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.subheader {
+    font-size: 20px;
+   margin: 5px;
+    color: var(--beige);
+}
+
+.circle {
+    background-color:var(--beige); /*hintergrundfarbe*/
+	width: 100px; 	/*breite*/
+	height: 100px;	/*höhe*/
+	border-radius: 50%;  /*Abgerundete Ecken, in diesem Beispiel tun die 50% ein Kreis darstellen*/
+    text-align: center; 
+    justify-content: center;
+display: grid;
+margin: auto; 
+}
+
+.borderTop {
+    border-top: 1px double var(--dark-grey);
+    margin-top: 2em;
+}
+
+.text {
+    font-size: 18px;
+    text-transform: none;;
+    color: var(--dark-grey);
+}
+
 .background {
-    background: white ; 
-    width: 100%; height: 150vh;
+    background: white;
+    height: 110vh;
    
+}
+
+.content {
+    padding: 50px 50px;
+}
+
+
+.xs6 {
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px;
+    grid-area: 'input';
+}
+
+.xs12 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.xs3 {
+    width: 25%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px;
 }

@@ -1,12 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     line-height: 1.5;
 }
 
 :root {
-    --header-font: 'Pacifico';
-    --sub-font: 'Raleway', sans-serif;
+    --header-font: 'Lobster Two', cursive;
+    --sub-font: 'Titillium Web', sans-serif;
     --green-gray: #556c72;
     --bright-green: #D2CA8C;
+    --light-mint: #c0d5d1;
+    --dark-mint: #1c2d2a;
+    --beige: #DDD3C8;
+    --dark-grey: #444545;
   }

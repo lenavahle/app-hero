@@ -1,0 +1,22 @@
+.content {
+    padding: 0px 200px;
+}
+
+
+.text {
+    display:inline;
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+}
+
+.header {
+    font-size: 28px;
+    color: var(--dark-grey);
+    text-transform: uppercase;
+}
+
+.subheader {
+    font-size: 20px;
+    color: var(--bright-green);
+}

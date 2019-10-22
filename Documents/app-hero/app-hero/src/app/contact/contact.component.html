@@ -1,24 +1,30 @@
-<div class="contact">
-        <div class="firstname field">
-                <label class="label" for="firstname"><span class="label">
-                    Vorname
-                </span> 
-                <input name="firstname" class="input-field" placeholder="Vorname" [formControl]="firstname">
-            </label> 
-            </div>
-                        <div class="lastname field">
-                                <label class="label" for="lastname"><span class="label">Nachname</span>
-                                <input name="lastname" class="input-field" placeholder="Nachname" [formControl]="lastname">
-                            </label> 
-                            </div>
-<div class="email field">
-        <label class="label" for="email"><span class="label">Nachname</span>
-            <input name="lastname" class="input-field" placeholder="Email" [formControl]="email">
-        </label> 
-</div>
-<div class="text field">
-        <label class="label" for="text"><span class="label">Nachname</span>
-            <input name="lastname" class="input-field" placeholder="Text" [formControl]="text">
-        </label> 
-</div>
-</div>
+<div id="container">
+        <h1>Kontaktformular</h1>
+        <div class="underline">
+        </div>
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Name" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="E-mail" name="email" id="email_input" required>
+          </div>
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="Telefon" name="telephone" id="telephone_input" required>
+          </div>
+          <div class="subject">
+            <label for="subject"></label>
+            <input type="text" placeholder="Betreff" name="topic" id="topic" required>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="message" placeholder="Ihre Nachricht" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Absenden" id="form_button" />
+          </div>
+        </form><!-- // End form -->
+      </div><!-- // End #container -->
