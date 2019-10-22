@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 * {
     font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
 }
+
+:root {
+    --header-font: 'Pacifico';
+    --sub-font: 'Raleway', sans-serif;
+    --green-gray: #556c72;
+    --bright-green: #D2CA8C;
+  }

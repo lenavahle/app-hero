@@ -1,0 +1,68 @@
+.label {
+    display: block;
+    padding-bottom: 2px;
+}
+
+
+.xs6 {
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px;
+    grid-area: 'input';
+}
+
+.xs12 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.xs3 {
+    width: 25%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.text {
+    grid-area: tex;
+}
+
+.email {
+    grid-area: email;
+}
+
+.contact {
+    left: 50%;
+    padding: 20px;
+    position: relative;
+    transform: translateX(-50%);
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(70px, auto);
+    grid-template-areas: 
+      "firstname lastname"
+      "tex tex"
+      "email email";
+}
+
+.firstname {
+    grid-area: firstname;
+}
+
+.lastname {
+    grid-area: lastname;
+}
+
+.field {
+    justify-self: center;
+    width: 95%;
+}
+
+.input-field {
+    width: 100%;
+    min-height: 30px;
+}

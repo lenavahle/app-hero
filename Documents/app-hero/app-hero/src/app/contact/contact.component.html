@@ -1,10 +1,24 @@
-<div class="input-container">
-    <div class="cole">
-        <h1>Hero Form</h1>
-        <input type="text" [formControl]="name">
-        <input type="name" [formControl]="name">
-        <input type="email" [formControl]="name">
-        <input type="topic" [formControl]="name"> 
-    </div>
-    </div>
-
+<div class="contact">
+        <div class="firstname field">
+                <label class="label" for="firstname"><span class="label">
+                    Vorname
+                </span> 
+                <input name="firstname" class="input-field" placeholder="Vorname" [formControl]="firstname">
+            </label> 
+            </div>
+                        <div class="lastname field">
+                                <label class="label" for="lastname"><span class="label">Nachname</span>
+                                <input name="lastname" class="input-field" placeholder="Nachname" [formControl]="lastname">
+                            </label> 
+                            </div>
+<div class="email field">
+        <label class="label" for="email"><span class="label">Nachname</span>
+            <input name="lastname" class="input-field" placeholder="Email" [formControl]="email">
+        </label> 
+</div>
+<div class="text field">
+        <label class="label" for="text"><span class="label">Nachname</span>
+            <input name="lastname" class="input-field" placeholder="Text" [formControl]="text">
+        </label> 
+</div>
+</div>
