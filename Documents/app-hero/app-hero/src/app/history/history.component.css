@@ -1,64 +1,77 @@
 @import '../../styles.css';
-
 .content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     height: 100%;
-    padding: 0 200px;
-    background: var(--beige);
-    color: var(--dark-mint);
-    height: 70vh;
-    border-top: 2em solid white;
+    height: 200vh;
     border-bottom: 2em solid white;
+    padding: 4em 150px;
+}
+
+.first-box {
+    padding-top:6em;
+    border-top: 1px solid white;
+}
+
+.box {
+    width: 48%;
+    height: 80vh;
+    display: inline-flex;
+    
+}
+
+.dark-box {
+    background: var(--main-green);
+    border: 2px solid var(--main-green);
+}
+.bright-box {
+    background: var(--main-green);
+    background: white;
+    border: 2px solid var(--main-green);
+    outline: 2px solid white;
+}
+
+.textcolor {
+    background-image:linear-gradient(90deg,var(--main-green),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+
+.header-text{
+    position: absolute;
+    font-size: 88px;
+    left: 28%;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: underline;
+    color: var(--dark-grey);
+    font-family: var(--header-font);
+}
+
+.main-text {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 3%;
+    overflow: hidden;
 }
 
 .header {
     font-size: 28px;
-    margin: 10px;
     color: var(--dark-grey);
-    text-transform: none;
-    font-family: var(--header-font);
-    text-decoration: underline;
+    text-transform: uppercase;
+    position: relative;
 }
 
 .subheader {
     font-size: 20px;
-    margin: 10px;
-    color: white;
+    color: var(--bright-green);
+   
+    font-family: var(--header-font);
+    position: relative;
 }
 
-.text {
-    font-size: 18px;
-    margin: 10px;
-    color: var(--dark-grey);
-}
-
-@media (max-width: 630px) {
-
-    .header {
-        font-size: 16px;
-    }
-
-    .subheader {
-        font-size: 12px;
-        text-transform: uppercase;
-    }
-
-    .text {
-        font-size: 12px;
-    }
-
-    .content {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        height: 100%;
-        padding: 0 20px;
-        background: var(--beige);
-        color: var(--dark-mint);
-        height: 40vh;
-        border-top: 1em solid white;
-        border-bottom: 1em solid white;
-    }
+.image-logo {
+   width: 400px;
+   height: auto;
+   padding-top: 15%;
+   padding-left: 3%;
+   position: absolute;
 }

@@ -1,13 +1,15 @@
+@import '../../styles.css';
 .navigation-bar {
-    background-color: white;
+    background-color: #fff;
     color: black;
-    height: 80px;
+    height: 70px;
     position: fixed;
     top:0;
     width: 100%;
     left: 0;
     overflow: hidden;
     z-index: 10;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.25);
 }
 
 .nav-bar-list {
@@ -15,24 +17,27 @@
     margin: 0 1.5em;
     color: var(--dark-grey);
     cursor: pointer;
-    border-bottom: 2px solid rgba(210, 202, 140, 0);
+    border-bottom: 2px solid rgba(132, 172, 76, 0);
     
     -webkit-transition: border 500ms ease;
     -moz-transition: border 500ms ease;
     -ms-transition: border 500ms ease;
     -o-transition: border 500ms ease;
     transition: border 500ms ease;
+    font-size: 18px;
+}
+
+.active {
+    border-bottom: 2px solid rgba(132, 172, 76, 1);
 }
 
 .nav-bar-list:hover {
-    border-bottom: 2px solid rgba(210, 202, 140, 1);
+    border-bottom: 2px solid rgba(132, 172, 76, 1);
 }
 
 .nav-bar-ul {
-position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    justify-content: center;
+    display: flex;
 }
 
 .title {
@@ -42,7 +47,7 @@ position: absolute;
 }
 
 .image {
-    height: 80px; width: auto; float: left; margin-left: 20px
+    height: 50px; width: auto; float: left; margin-left: 20px; margin-top: 10px;
 }
 
 @media(max-width: 630px) {
@@ -63,7 +68,6 @@ position: absolute;
         margin: 0 0.8em;
         color: var(--dark-grey);
         cursor: pointer;
-        font-size: smaller;
         border-bottom: 2px solid rgba(210, 202, 140, 0);
         
         -webkit-transition: border 500ms ease;
