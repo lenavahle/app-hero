@@ -13,7 +13,7 @@
 .nav-bar-list {
     display: inline;
     margin: 0 1.5em;
-    color: black;
+    color: var(--dark-grey);
     cursor: pointer;
     border-bottom: 2px solid rgba(210, 202, 140, 0);
     
@@ -41,3 +41,35 @@ position: absolute;
     scroll-behavior: smooth;
 }
 
+.image {
+    height: 80px; width: auto; float: left; margin-left: 20px
+}
+
+@media(max-width: 630px) {
+
+    .image {
+        height: 40px;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+
+    .nav-bar-ul {
+        position: relative;
+         
+        }
+    .nav-bar-list {
+        display: inline;
+        margin: 0 0.8em;
+        color: var(--dark-grey);
+        cursor: pointer;
+        font-size: smaller;
+        border-bottom: 2px solid rgba(210, 202, 140, 0);
+        
+        -webkit-transition: border 500ms ease;
+        -moz-transition: border 500ms ease;
+        -ms-transition: border 500ms ease;
+        -o-transition: border 500ms ease;
+        transition: border 500ms ease;
+    }
+}
