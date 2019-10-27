@@ -6,10 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./farming.component.css']
 })
 export class FarmingComponent implements OnInit {
+  public imagesUrl;
 
   constructor() { }
 
   ngOnInit() {
+    this.imagesUrl = [
+      '../assets/images/IMG_4575.JPG',
+      '../assets/images/IMG_4565.JPG',
+      '../assets/images/IMG_4573.JPG',
+      '../assets/images/IMG_4571.JPG',
+      '../assets/images/IMG_4480.JPG',
+      '../assets/images/IMG_4459.JPG',
+      ];
   }
 
 }

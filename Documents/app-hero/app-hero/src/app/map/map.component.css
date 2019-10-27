@@ -7,7 +7,7 @@
     display:inline;
     position: relative;
     left: 500px;
-    bottom: 400px;
+    bottom: 300px;
 }
 
 .header {
@@ -16,7 +16,12 @@
     text-transform: uppercase;
 }
 
+.banner {
+    width: 100%;
+    height: auto;
+}
+
 .subheader {
     font-size: 20px;
-    color: var(--bright-green);
+    color: var(--main-green);
 }

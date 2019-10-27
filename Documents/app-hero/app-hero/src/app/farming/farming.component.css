@@ -1,5 +1,23 @@
+@import '../../styles.css';
+
 .image {
     width: 100%;
     height: auto;
     
+}
+
+.content {
+    height: 100%;
+    border-bottom: 2em solid white;
+    margin: 4em 100px;
+    padding-bottom: 2em;
+    display: block;
+    border-bottom: 1px solid lightgray;
+}
+
+.header {
+    font-family: var(--header-font);
+    color: var(--dark-grey);
+    text-align: center;
+    font-size: 32px;
 }

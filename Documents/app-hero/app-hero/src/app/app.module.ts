@@ -15,6 +15,11 @@ import { StartComponent } from './start/start.component';
 import { FarmingComponent } from './farming/farming.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MapComponent } from './map/map.component';
+import {MatCardModule} from '@angular/material/card';
+// For MDB Angular Free
+import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SliderModule } from 'angular-image-slider';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,7 @@ import { MapComponent } from './map/map.component';
     PigsComponent,
     StartComponent,
     FarmingComponent,
-    MapComponent
+    MapComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +42,12 @@ import { MapComponent } from './map/map.component';
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
+    CarouselModule,
+    WavesModule,
+    MatCardModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    SliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

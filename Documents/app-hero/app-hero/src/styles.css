@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; src: local('Arial');
     line-height: 1.5;
 }
 
 :root {
-    --header-font: 'Lobster Two', cursive;
-    --sub-font: 'Titillium Web', sans-serif;
+    --header-font:  'Lobster Two', cursive; src: local('Arial');
+    --sub-font: 'Roboto Condensed', sans-serif ;
     --green-gray: #556c72;
     --bright-green: #D2CA8C;
     --light-mint: #c0d5d1;

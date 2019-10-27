@@ -171,7 +171,7 @@ textarea {
 }
 
 #form_button {
-  background: var(--bright-green);
+  background: var(--main-green);
   border: solid 2px var(--dark-grey);
   color: var(--dark-grey);
   cursor: pointer;
@@ -190,7 +190,7 @@ textarea {
 
 #form_button:hover {
   background:var(--dark-grey)474544;
-  color: #F2F3EB;
+  color: var(--main-green);
 }
 
 @media screen and (max-width: 768px) {
