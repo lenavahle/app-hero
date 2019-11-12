@@ -7,6 +7,7 @@
 :root {
     --header-font:  'Lobster Two', cursive; src: local('Arial');
     --sub-font: 'Roboto Condensed', sans-serif ;
+    --nav-font: 'Open Sans', sans-serif;
     --green-gray: #556c72;
     --bright-green: #D2CA8C;
     --light-mint: #c0d5d1;

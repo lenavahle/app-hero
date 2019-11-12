@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StartComponent implements OnInit {
 
-  constructor() { }
+  public imageWidth;
+  constructor() {
+    this.imageWidth = window.innerWidth;
+   }
 
   ngOnInit() {
     
