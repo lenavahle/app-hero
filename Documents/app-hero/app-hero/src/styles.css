@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    font-family: 'Roboto Condensed', sans-serif; src: local('Arial');
+    font-family: 'Open Sans', sans-serif; src: local('Arial');
     line-height: 1.5;
 }
 
 :root {
     --header-font:  'Lobster Two', cursive; src: local('Arial');
-    --sub-font: 'Roboto Condensed', sans-serif ;
+    --sub-font: 'Open Sans', sans-serif ;
     --nav-font: 'Open Sans', sans-serif;
     --green-gray: #556c72;
     --bright-green: #D2CA8C;
@@ -18,4 +18,5 @@
     --main-beige: #EDDCA4;
     --bioland-green: #008043;
     --main-dark-green: #487010;
+    --light-grey: #e5e5e5;
   }

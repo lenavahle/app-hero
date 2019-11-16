@@ -10,7 +10,20 @@
     <!-- <img src="../assets/images/logo.jpg" class="image">
 </div>  -->
 
-<div class="header-middle">Biolandhof Schmidt</div>
+<div class="header">
+   
+  
+<div class="header-middle">
+        <div class="icons-left">
+                <i class="icon-facebook-squared"></i>
+                <i class="icon-linkedin-squared"></i>
+                <i class="icon-xing"></i>           
+        </div>
+    <div class="header-text">
+        Biolandhof Schmidt</div>
+</div>
+
+</div>
 <div class="subheader-middle">
     <li class="nav-bar-list" (click)="scroll('history')">Hofbewohner</li>
     <li class="nav-bar-list" (click)="scroll('animal')">Verkauf</li>
@@ -18,7 +31,10 @@
     <li class="nav-bar-list" (click)="scroll('contact')">Kontakt</li>
         <li class="nav-bar-list" (click)="scroll('map')">Karte</li>
 </div>
-<div class="image-middle">
+<div class="image-middle-title" (mouseenter)="hover = true" (mouseleave)="hover = false">
+    <div class="subtitle" [class.active]="hover === true">
+       {{text.subtitle}}
+    </div>
 </div>
 <div class="header-main">Unsere Hofbewohner</div>
 <div class="content-middle">
@@ -50,5 +66,19 @@
                      </div>
             </div>
         </div>
+        <!-- <div class="xs12">
+                <div class="content">
+                        <div class="header-middle no-bottom">Gallery</div> 
+                <angular-image-slider [images]="imagesUrl"></angular-image-slider>
+        </div>
+        </div> -->
+</div>
+<div class="background-div">
+        <div class="clipped-title2">
+             <div class="large">Biolandhof Schmidt</div>
+             
+            
+             </div>
+             <div class="medium">Ökologischer Landbau aus Leidenschaft</div>
 </div>
 <!-- <div class="header-main">&Uuml;ber uns</div> -->
