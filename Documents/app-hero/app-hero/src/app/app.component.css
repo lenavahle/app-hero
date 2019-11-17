@@ -29,4 +29,11 @@
 }
 
 * {
-        font-family: 'Titillium Web', sans-serif;}
+        font-family: 'Open Sans', sans-serif;}
+
+        @media (max-width: 630px) {
+        .picture {
+               width: auto;
+               height: 300px;
+        }
+        }
