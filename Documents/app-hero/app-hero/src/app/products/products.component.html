@@ -1,27 +1,40 @@
+<div class="overall-body">
 <div class="body">
+    <div class="title">{{text.ackerbau}}</div>
+    <div class="main-text">
+            Als weiter Betriebszweig zu der Tierhaltung gehört der Ackerbau zu unserem Betrieb. Mit Hilfe unserer vielfältigen Fruchtfolge, schaffen wir es die natürliche Fruchtbarkeit des Bodens zu erhalten und auf chemische Pflanzenschutzmittel, sowie Mineralische Düngemittel zu verzichten. In unserer Fruchtfolge bauen wir unter anderem Kleegras, Ackerbohnen, Erbsen und verschiedene Getreidesorten wie Weizen, Gerste, Hafer und Triticale an, welche wir allesamt auf unserem Betrieb lagern und als Futtermittel für unsere Tiere verwenden. Zusätzlich zu unseren Hauptkulturen bauen wir verschiedene Zwischenfruchtmischungen an, welche sich positiv auf den Boden auswirken und als Nahrungsquelle für verschiedenste Insekten dienen.
+    </div>
     <div class="xs12">
         <div class="xs4">
-            <div class="card bg1">
-                <div class="hover-text" (mouseenter)="hover = true" (mouseleave)="hover = false" [class.active]="hover === true">
+            <div class="card bg1" (mouseenter)="hover1 = true" (mouseleave)="hover1 = false" >
+                <div class="hover-text" [class.active]="hover1 === true">
                     <div class="header" >
-                        Getreide 1
+                        Fruchtfolge
                     </div>
-                    Erfahren Sie mehr la asdfljasd asdfjl fasj asdf asdf asdf asdf
+                    Kleegras, Ackerbohnen und Erbsen
                 </div>
             </div>
         </div>
         <div class="xs4">
-                <div class="card bg2">
-                        <div class="hover-text" (mouseenter)="hover = true" (mouseleave)="hover = false" [class.active]="hover === true">
+                <div class="card bg2" (mouseenter)="hover2 = true" (mouseleave)="hover2 = false" >
+                        <div class="hover-text" [class.active]="hover2 === true">
                                 <div class="header" >
-                                    Getreide 1
+                                    Getreide
                                 </div>
-                                Erfahren Sie mehr la asdfljasd asdfjl fasj asdf asdf asdf asdf
+                                Weizen, Gerste, Hafer und Triticale 
                             </div>
                 </div>
             </div>
             <div class="xs4">
-                    <div class="card bg3"></div>
+                    <div class="card bg3" (mouseenter)="hover3 = true" (mouseleave)="hover3 = false" >
+                            <div class="hover-text" [class.active]="hover3 === true">
+                                    <div class="header">
+                                            Zwischenfrucht-mischungen 
+                                    </div>
+                    
+                                </div>
+                    </div>
                 </div>
     </div>
+</div>
 </div>

@@ -1,0 +1,29 @@
+.xs12 {
+    width: 100%;
+    display: flex;
+} 
+
+.xs8 {
+    width: 75%;
+    display: flex;
+}
+
+.xs4 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.xs3 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    padding-bottom: 2em;
+}
+
+.overall-body {
+    margin: 0 15em 2em 15em;
+}

@@ -46,7 +46,7 @@ textarea {
 #container {
   border: solid 3px var(--dark-grey);
   max-width: 900px;
-  margin: 60px auto;
+  margin: 5em auto;
   position: relative;
 }
 

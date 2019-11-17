@@ -1,3 +1,4 @@
 export const texte = {
-    subtitle: 'Oekologischer Landbau aus Leidenschaft'
+    subtitle: 'Oekologischer Landbau aus Leidenschaft',
+    ackerbau: 'Ackerbau',
 }

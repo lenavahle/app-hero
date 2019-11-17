@@ -20,6 +20,7 @@ import {MatCardModule} from '@angular/material/card';
 import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SliderModule } from 'angular-image-slider';
+import { ChartComponent } from './chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { SliderModule } from 'angular-image-slider';
     StartComponent,
     FarmingComponent,
     MapComponent,
+    ChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,7 @@ import { SliderModule } from 'angular-image-slider';
     MatCardModule,
     BrowserModule,
     BrowserAnimationsModule,
-    SliderModule
+    SliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
