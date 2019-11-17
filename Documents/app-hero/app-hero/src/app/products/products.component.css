@@ -99,3 +99,29 @@
     background-image: url('src/assets/images/acker3.jpg');
 }
 
+@media (max-width: 630px) {
+    .title {
+        font-size: 24px;
+    }
+    .body {
+        margin: 0;
+    }
+
+    .xs4 {
+        display: block;
+        width: 100%;
+    }
+
+    .card {
+        width: 90%;
+        border: none;
+        background-size: 100% auto;
+        margin-bottom: -10em;
+    }
+
+    .xs12 {
+        display: block;
+        margin: 0.5em;
+    }
+}
+
