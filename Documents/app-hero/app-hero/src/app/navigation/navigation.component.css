@@ -77,7 +77,7 @@
 }
 
 .image-middle-title {
-    margin: 5em 3em;
+    margin: 4em 3em 4em 3em;
     border-radius: 4px;
     height: 500px;
     max-height: 100%;
@@ -85,21 +85,6 @@
     background-position: center center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-}
-
-
-.image-middle-title:hover {
-    /* background: linear-gradient(
-          rgba(0, 0, 0, 0.5), 
-          rgba(0, 0, 0, 0.5)
-        ), url('src/assets/images/4474.jpg');
-        margin: 3em 3em;
-        border-radius: 4px;
-        height: 500px;
-        max-height: 100%;
-        background-position: center center;
-        background-size: 100% auto;
-        background-repeat: no-repeat; */
 }
 
 .icons-left {

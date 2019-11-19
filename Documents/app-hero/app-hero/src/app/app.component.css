@@ -33,7 +33,8 @@
 
         @media (max-width: 630px) {
         .picture {
-               width: auto;
-               height: 300px;
+              visibility: hidden;
+              width: 0;
+              height: 0;
         }
         }

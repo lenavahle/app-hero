@@ -123,5 +123,8 @@
         display: block;
         margin: 0.5em;
     }
+    .hover-text {
+      margin:  20% 10% 10% 15%;
+    }
 }
 
