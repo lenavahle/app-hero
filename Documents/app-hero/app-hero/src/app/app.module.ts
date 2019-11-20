@@ -21,6 +21,13 @@ import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SliderModule } from 'angular-image-slider';
 import { ChartComponent } from './chart/chart.component';
+import { ImpressumComponent } from './impressum/impressum.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  { path: 'impressum', component: ImpressumComponent },
+  // { path: '**', component: MainComponent },
+  { path: '',      component: MainComponent }];
 
 @NgModule({
   declarations: [
@@ -36,8 +43,12 @@ import { ChartComponent } from './chart/chart.component';
     FarmingComponent,
     MapComponent,
     ChartComponent,
+    ImpressumComponent,
   ],
   imports: [
+    RouterModule.forRoot(
+      appRoutes
+    ),
     BrowserModule,
     AppRoutingModule,
     MatGridListModule,

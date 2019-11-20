@@ -1,10 +1,19 @@
-<div class="main">
-
-    <app-history></app-history>
-    <app-products></app-products>
-    <app-contact></app-contact>
-    <app-pigs></app-pigs>
-    <div style="margin: 0 2em">
-    <app-chickens></app-chickens>
-</div>
-</div>
+<div style="margin:-8px; overflow-x: hidden">
+    <app-navigation></app-navigation>
+  
+    <app-farming id="hofbewohner"></app-farming> 
+    <div class="picture bg2">
+                <div class="text"></div>
+             </div>
+    <app-products id="ackerbau"></app-products>
+    
+    <app-chickens id="verkauf"></app-chickens> 
+     
+    <div class="picture bg1">
+          <div class="text"></div>
+       </div>
+    <!-- <app-contact id="contact"></app-contact> -->
+    <app-map id="map"></app-map> 
+    </div>
+    <router-outlet></router-outlet>
+     
