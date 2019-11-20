@@ -79,4 +79,7 @@ width: 100%
     .frame {
         width: 100%;
     }
+    .impressum {
+        padding: 0;
+    }
 }

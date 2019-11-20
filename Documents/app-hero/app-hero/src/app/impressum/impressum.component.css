@@ -25,3 +25,19 @@
     color: white;
     border: 2px solid white;
 }
+
+@media (max-width: 630px) {
+    .backbutton {
+        right: 2em; 
+        top: 2em;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .impressum {
+        padding-top: 4em;
+    }
+}
