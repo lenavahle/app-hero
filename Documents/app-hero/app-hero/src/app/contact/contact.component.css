@@ -170,7 +170,7 @@ textarea {
 	color: #474544;
 }
 
-#form_button {
+.form_button {
   background: var(--main-green);
   border: solid 2px var(--dark-grey);
   color: var(--dark-grey);
@@ -188,9 +188,15 @@ textarea {
 	transition: all 0.3s;
 }
 
-#form_button:hover {
-  background:var(--dark-grey)474544;
+.form_button:hover {
+  background:var(--dark-grey);
   color: var(--main-green);
+}
+
+.form_button:disabled,
+form_button[disabled] {
+  background: var(--dark-grey);
+  color: var(--lighter-grey);
 }
 
 @media screen and (max-width: 768px) {

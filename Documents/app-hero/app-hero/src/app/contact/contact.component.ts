@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { Component, OnInit, Input } from '@angular/core';
+import { FormControl, Validators, FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -8,18 +8,27 @@ import { FormControl, Validators } from '@angular/forms';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  contact: FormGroup; 
 
-  public firstname = new FormControl('');
-  public lastname = new FormControl('');
-  public email = new FormControl('', [Validators.required, Validators.email]);
-  public topic = new FormControl('');
-  public text = new FormControl('');
+  @Input() name = new FormControl('', [Validators.required]);
+  @Input() email = new FormControl('', [Validators.required, Validators.email]);
+  @Input() telephone = new FormControl('');
+  @Input() subject = new FormControl('');
+  @Input() message = new FormControl('', [Validators.required]);
+
+  constructor(private readonly fb: FormBuilder) {
+    this.contact = new FormGroup({});
+    this.contact.addControl('name', this.name);
+    this.contact.addControl('email', this.email);
+    this.contact.addControl('telephone', this.telephone);
+    this.contact.addControl('subject', this.subject);
+    this.contact.addControl('message', this.message);
+   }
+
   ngOnInit() {
   }
-  getErrorMessage() {
-    return this.email.hasError('required') ? 'You must enter a value' :
-        this.email.hasError('email') ? 'Not a valid email' :
-            '';
-}
+
+  public submit () {
+    console.log(this.name.valid);
+  }
 }

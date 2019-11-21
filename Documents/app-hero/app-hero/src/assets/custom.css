@@ -1,0 +1,9 @@
+@font-face {
+    font-family: lemon;
+    src: url("src/assets/fonts/LemonYellowSun.otf") format("opentype");
+}
+
+@font-face {
+    font-family: func;
+    src: url("src/assets/fonts/func.TTF") format("truetype");
+}

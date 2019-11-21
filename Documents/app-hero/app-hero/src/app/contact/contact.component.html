@@ -2,29 +2,29 @@
         <div class="title">
             Kontaktformular
         </div>
-        <form action="#" method="post" id="contact_form">
+        <form name="contact_form">
           <div class="name">
             <label for="name"></label>
-            <input type="text" placeholder="Name" name="name" id="name_input" required>
+            <input type="text" placeholder="Name" [formControl]="name" name="name_input">
           </div>
           <div class="email">
             <label for="email"></label>
-            <input type="email" placeholder="E-mail" name="email" id="email_input" required>
+            <input type="email" placeholder="E-mail" [formControl]="email" name="email_input">
           </div>
           <div class="telephone">
             <label for="name"></label>
-            <input type="text" placeholder="Telefon" name="telephone" id="telephone_input" required>
+            <input type="text" placeholder="Telefon" [formControl]="telephone" name="telephone_input" >
           </div>
           <div class="subject">
             <label for="subject"></label>
-            <input type="text" placeholder="Betreff" name="topic" id="topic" required>
+            <input type="text" placeholder="Betreff" [formControl]="topic" name="topic">
           </div>
           <div class="message">
             <label for="message"></label>
-            <textarea name="message" placeholder="Ihre Nachricht" id="message_input" cols="30" rows="5" required></textarea>
+            <textarea [formControl]="message" placeholder="Ihre Nachricht" name="message_input" cols="30" rows="5" ></textarea>
           </div>
           <div class="submit">
-            <input type="submit" value="Absenden" id="form_button" />
+            <button [disabled]="contact.invalid" (click)="submit()" class="form_button" type="submit"  name="form_button">Absenden</button>
           </div>
         </form><!-- // End form -->
       </div><!-- // End #container -->

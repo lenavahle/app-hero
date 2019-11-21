@@ -10,6 +10,7 @@ export class ImpressumComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    window.scrollTo({top: 0});
   }
 
 }

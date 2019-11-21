@@ -1,3 +1,4 @@
+@import "../src/assets/custom.css";
 /* You can add global styles to this file, and also import other style files */
 * {
     font-family: 'Open Sans', sans-serif; src: local('Arial');
@@ -5,8 +6,8 @@
 }
 
 :root {
-    --header-font:  'Lobster Two', cursive; src: local('Arial');
-    --sub-font: 'Open Sans', sans-serif ;
+    --header-font:  'lemon';
+    --sub-font: 'func' ;
     --nav-font: 'Open Sans', sans-serif;
     --green-gray: #556c72;
     --bright-green: #D2CA8C;

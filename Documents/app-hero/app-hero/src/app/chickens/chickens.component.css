@@ -9,6 +9,9 @@
     /* background: var(--lighter-grey); */
 }
 
+.images {
+    width: 100%;
+}
 .header {
     font-weight: bold;
     font-size: 32px !important;
@@ -112,6 +115,8 @@
         margin-bottom: 0;
         margin-top: 10px;
     }
+
+
 
     .text {
         margin: 5px;
