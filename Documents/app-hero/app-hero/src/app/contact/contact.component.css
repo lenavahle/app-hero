@@ -21,6 +21,10 @@ body {
 
 }
 
+.ng-invalid {
+  background: red;
+}
+
 button {
   overflow: visible;
 }
@@ -197,6 +201,7 @@ textarea {
 form_button[disabled] {
   background: var(--dark-grey);
   color: var(--lighter-grey);
+  border-color: var(--lighter-grey);
 }
 
 @media screen and (max-width: 768px) {

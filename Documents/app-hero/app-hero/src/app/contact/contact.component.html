@@ -5,11 +5,11 @@
         <form name="contact_form">
           <div class="name">
             <label for="name"></label>
-            <input type="text" placeholder="Name" [formControl]="name" name="name_input">
+            <input type="text" placeholder="Name *" [formControl]="name" name="name_input">
           </div>
           <div class="email">
             <label for="email"></label>
-            <input type="email" placeholder="E-mail" [formControl]="email" name="email_input">
+            <input type="email" placeholder="E-mail *" [formControl]="email" name="email_input">
           </div>
           <div class="telephone">
             <label for="name"></label>
@@ -17,11 +17,11 @@
           </div>
           <div class="subject">
             <label for="subject"></label>
-            <input type="text" placeholder="Betreff" [formControl]="topic" name="topic">
+            <input type="text" placeholder="Betreff" [formControl]="subject" name="subject">
           </div>
           <div class="message">
             <label for="message"></label>
-            <textarea [formControl]="message" placeholder="Ihre Nachricht" name="message_input" cols="30" rows="5" ></textarea>
+            <textarea [formControl]="message" placeholder="Ihre Nachricht *" name="message_input" cols="30" rows="5" ></textarea>
           </div>
           <div class="submit">
             <button [disabled]="contact.invalid" (click)="submit()" class="form_button" type="submit"  name="form_button">Absenden</button>

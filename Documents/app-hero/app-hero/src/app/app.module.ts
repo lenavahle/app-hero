@@ -16,6 +16,7 @@ import { FarmingComponent } from './farming/farming.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MapComponent } from './map/map.component';
 import {MatCardModule} from '@angular/material/card';
+import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 // For MDB Angular Free
 import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -23,7 +24,7 @@ import { SliderModule } from 'angular-image-slider';
 import { ChartComponent } from './chart/chart.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { RouterModule, Routes } from '@angular/router';
-
+import {GalleriaModule} from 'primeng/galleria';
 const appRoutes: Routes = [
   { path: 'impressum', component: ImpressumComponent },
   // { path: '**', component: MainComponent },
@@ -43,7 +44,7 @@ const appRoutes: Routes = [
     FarmingComponent,
     MapComponent,
     ChartComponent,
-    ImpressumComponent,
+    ImpressumComponent
   ],
   imports: [
     RouterModule.forRoot(
@@ -61,6 +62,8 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     SliderModule,
+    GalleriaModule,
+    AccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
