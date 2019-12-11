@@ -30,14 +30,12 @@ export class NavigationComponent implements OnInit {
       '../assets/images/IMG_4459.JPG',
     ]
 
-    // let dd = new DeviceDetector();
-    // let device = dd.parse(navigator.userAgent);
-    // console.log(device);
+
   let timerId = setInterval(() => this.fade(), 10000);
   }
 
   fade () {
-    if (this.deviceService.isMobile()) {
+    if (!this.deviceService.isMobile()) {
     if (this.index < 2) {
       this.index += 1;
     } else {
