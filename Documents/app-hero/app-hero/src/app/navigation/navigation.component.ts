@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { fromEvent } from 'rxjs';
 import { texte } from 'src/texte';
 import { tap, map } from 'rxjs/operators';
+import { DeviceDetectorService } from 'ngx-device-detector';
 
 @Component({
   selector: 'app-navigation',
@@ -15,9 +16,9 @@ export class NavigationComponent implements OnInit {
 
   public text = texte;
   
-  hover = false;
+  public index = 0;
  
-  constructor() { }
+  constructor(private readonly deviceService: DeviceDetectorService) { }
 
   ngOnInit() {
     this.imagesUrl = [
@@ -28,17 +29,25 @@ export class NavigationComponent implements OnInit {
       '../assets/images/IMG_4480.JPG',
       '../assets/images/IMG_4459.JPG',
     ]
-    console.log(event)
 
+    // let dd = new DeviceDetector();
+    // let device = dd.parse(navigator.userAgent);
+    // console.log(device);
+  let timerId = setInterval(() => this.fade(), 10000);
   }
+
+  fade () {
+    if (this.deviceService.isMobile()) {
+    if (this.index < 2) {
+      this.index += 1;
+    } else {
+      this.index = 0;
+    }
+  }
+}
 
   scroll(value: string) {
     const element = document.querySelector('#' + value);
     element.scrollIntoView({behavior: 'smooth', block: 'start'});
   }
-
-  public test() {
-    console.log('st')
-  }
-
 }

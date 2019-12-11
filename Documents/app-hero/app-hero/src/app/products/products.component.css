@@ -130,6 +130,10 @@
         display: block;
         width: 100%;
     }
+    .main-text {
+        margin: 2em;
+    }
+    
 
     .card {
         width: 0;

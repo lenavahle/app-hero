@@ -20,6 +20,7 @@ export class ProductsComponent implements OnInit {
   public text = texte;
 
   ngOnInit() {
+
     this.images = [];
     this.images.push({source:'/assets/images/IMG_4459.JPG', style:"width: 500px", alt:'Description for Image 1', title:'Title 1'});
     this.images.push({source:'/assets/images/IMG_4575.JPG', alt:'Description for Image 1', title:'Title 1'});

@@ -26,7 +26,7 @@
   
         <li class="nav-bar-list" (click)="scroll('map')">Kontakt</li>
 </div>
-<div class="image-middle-title" (mouseenter)="hover = true" (mouseleave)="hover = false">
- 
-</div>
+<div *ngIf="index === 0" class="image-middle-title bg1"></div>
+<div *ngIf="index === 1" class="image-middle-title bg2"></div>
+<div *ngIf="index === 2" class="image-middle-title bg3"></div>
 

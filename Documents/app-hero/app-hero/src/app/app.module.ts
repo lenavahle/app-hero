@@ -25,6 +25,8 @@ import { ChartComponent } from './chart/chart.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { RouterModule, Routes } from '@angular/router';
 import {GalleriaModule} from 'primeng/galleria';
+import { DecodingPipe } from 'src/decoding-pipe';
+import { DeviceDetectorModule } from 'ngx-device-detector';
 const appRoutes: Routes = [
   { path: 'impressum', component: ImpressumComponent },
   // { path: '**', component: MainComponent },
@@ -44,7 +46,8 @@ const appRoutes: Routes = [
     FarmingComponent,
     MapComponent,
     ChartComponent,
-    ImpressumComponent
+    ImpressumComponent,
+    DecodingPipe,
   ],
   imports: [
     RouterModule.forRoot(
@@ -63,7 +66,8 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     SliderModule,
     GalleriaModule,
-    AccordionModule
+    AccordionModule,
+    DeviceDetectorModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

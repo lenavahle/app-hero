@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { texte } from 'src/texte';
 
 @Component({
   selector: 'app-chickens',
@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class ChickensComponent implements OnInit {
 
   constructor() { }
+
+  public text = texte;
 
   ngOnInit() {
   }

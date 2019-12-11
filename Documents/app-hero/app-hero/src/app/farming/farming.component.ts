@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {texte} from 'src/texte';
 
 @Component({
   selector: 'app-farming',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FarmingComponent implements OnInit {
   public imagesUrl;
+
+  public text = texte;
 
   constructor() { }
 

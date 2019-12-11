@@ -67,6 +67,12 @@
     font-family: var(--header-font);
     font-size: 32px;
 }
+.information {
+    padding: 0 7em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 2;
+}
 
 .subheader-middle {
     text-align: center;
@@ -302,6 +308,11 @@
         right: 10px;
         top: 20px;
     }
+
+    .information {
+        padding: 0 2em;
+    }
+
 
     .nav-bar-ul {
         position: relative;
