@@ -31,7 +31,7 @@ export class NavigationComponent implements OnInit {
     ]
 
 
-  let timerId = setInterval(() => this.fade(), 10000);
+  let timerId = setInterval(() => this.fade(), 100000);
   }
 
   fade () {
