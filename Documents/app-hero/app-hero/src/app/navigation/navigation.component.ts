@@ -30,8 +30,7 @@ export class NavigationComponent implements OnInit {
       '../assets/images/IMG_4459.JPG',
     ]
 
-
-  let timerId = setInterval(() => this.fade(), 100000);
+  let timerId = setInterval(() => this.fade(), 30000);
   }
 
   fade () {
