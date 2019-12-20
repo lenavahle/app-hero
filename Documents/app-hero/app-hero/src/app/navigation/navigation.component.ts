@@ -18,7 +18,7 @@ export class NavigationComponent implements OnInit {
   
   public index = 0;
  
-  constructor(private readonly deviceService: DeviceDetectorService) { }
+  constructor(public readonly deviceService: DeviceDetectorService) { }
 
   ngOnInit() {
     this.imagesUrl = [
