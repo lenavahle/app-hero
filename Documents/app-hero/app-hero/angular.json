@@ -87,7 +87,6 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/texte.ts"
             ],
             "styles": [
               "src/styles.css",
