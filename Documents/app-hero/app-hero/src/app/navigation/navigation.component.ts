@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { fromEvent } from 'rxjs';
-import { texte } from 'src/texte';
+import { texte } from 'src/assets/texte/texte';
 import { tap, map } from 'rxjs/operators';
 import { DeviceDetectorService } from 'ngx-device-detector';
 
@@ -22,15 +22,18 @@ export class NavigationComponent implements OnInit {
 
   ngOnInit() {
     this.imagesUrl = [
-      '../assets/images/IMG_4575.JPG',
+      '../assets/images/house_logo.jpg',
       '../assets/images/IMG_4565.JPG',
       '../assets/images/IMG_4573.JPG',
       '../assets/images/IMG_4571.JPG',
       '../assets/images/IMG_4480.JPG',
       '../assets/images/IMG_4459.JPG',
+      '../assets/images/huette.jpg',
+      '../assets/images/field.jpg',
+      '../assets/images/verkauf2.jpg',
     ]
 
-  let timerId = setInterval(() => this.fade(), 30000);
+  let timerId = setInterval(() => this.fade(), 10000);
   }
 
   fade () {

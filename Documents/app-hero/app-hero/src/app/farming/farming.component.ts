@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {texte} from 'src/texte';
+import {texte} from 'src/assets/texte/texte';
 
 @Component({
   selector: 'app-farming',

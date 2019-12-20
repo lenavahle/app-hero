@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {texte} from 'src/texte';
+import {texte} from 'src/assets/texte/texte';
 import {GalleriaModule} from 'primeng/galleria';
 
 
@@ -29,6 +29,9 @@ export class ProductsComponent implements OnInit {
     this.images.push({source:'/assets/images/IMG_4571.JPG', alt:'Description for Image 1', title:'Title 1'});
     this.images.push({source:'/assets/images/IMG_4480.JPG', alt:'Description for Image 1', title:'Title 1'});
     this.images.push({source:'/assets/images/IMG_4631.JPG', alt:'Description for Image 1', title:'Title 1'});
+    this.images.push({source:'/assets/images/huette.jpg', alt:'Description for Image 1', title:'Title 1'});
+    this.images.push({source:'/assets/images/house_logo.jpg', alt:'Description for Image 1', title:'Title 1'});
+    this.images.push({source:'/assets/images/field2.jog', alt:'Description for Image 1', title:'Title 1'});
   }
 
 }
