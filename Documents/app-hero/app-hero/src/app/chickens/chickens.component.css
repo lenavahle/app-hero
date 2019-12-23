@@ -120,5 +120,6 @@
 
     .text {
         margin: 5px;
+        font-size: smaller;
     }
 }

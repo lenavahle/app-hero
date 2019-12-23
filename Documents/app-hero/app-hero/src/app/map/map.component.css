@@ -27,7 +27,7 @@
     font-size: 32px;
     color: var(--dark-grey);
     text-decoration: none;
-    font-family: var(--sub-font);
+    font-family: var(--header-font);
 }
 
 .banner {

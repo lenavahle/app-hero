@@ -242,14 +242,14 @@
 .green {
    background: var(--main-green);
     color: var(--dark-mint);
-   height: 600px;
+   height: 700px;
    outline: 1px solid var(--main-green);
 }
 
 .white {
     background: #fff;
     border: 1px solid var(--main-green);
-    height: 600px;
+    height: 700px;
  }
 
  @media(max-width: 630px) {

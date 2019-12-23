@@ -31,7 +31,7 @@ export class ProductsComponent implements OnInit {
     this.images.push({source:'/assets/images/IMG_4631.JPG', alt:'Description for Image 1', title:'Title 1'});
     this.images.push({source:'/assets/images/huette.jpg', alt:'Description for Image 1', title:'Title 1'});
     this.images.push({source:'/assets/images/house_logo.jpg', alt:'Description for Image 1', title:'Title 1'});
-    this.images.push({source:'/assets/images/field2.jog', alt:'Description for Image 1', title:'Title 1'});
+    this.images.push({source:'/assets/images/field2.jpg', alt:'Description for Image 1', title:'Title 1'});
   }
 
 }
